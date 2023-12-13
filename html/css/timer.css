@@ -1,0 +1,204 @@
+@font-face {
+    font-family: Digital ;
+    src: url(digital-7.ttf);
+}
+body{
+    background-color: black;
+}
+
+.timer{
+    color: red;
+    border: 5px double red;
+    border-radius: 20px;
+    background-color: black;
+    text-align: center;
+    font-size: 90px;
+    font:bold;
+    font-family: Digital;
+    width: 350px;
+    padding: 5px 10px 5px 10px;
+}
+
+.timer-wrap{
+    background-color: black;
+    border: 2px solid red;
+    border-radius: 20px;
+    padding-left: 10px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+
+.legend{
+    color: red;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.btn{
+    border: 2px solid red;
+    border-radius: 20px;
+    background-color: black;
+    color: red;
+    display: flex;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4px;
+    align-items: center;
+    justify-content: center;
+    font-family: Digital;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.result{
+    border: 2px solid red;
+    border-radius: 20px;
+    background-color: black;
+    color: red;
+    display: flex;
+    width: 395px;
+    margin-top: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    }
+
+    nav {
+        background-color: black;
+        border-bottom: 1px solid red;
+      }
+      
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      
+      li{
+        display: inline-block;
+      }
+      
+      a {
+        display: block;
+        padding: 1rem;
+        text-decoration: none;
+        color: red;
+        font-weight: bold;
+      }
+      
+      a:hover {
+        background-color: red;
+        color: black;
+      }
+      
+.time, .month, .day, .year, .text{
+  color: red;
+  font-family: Digital;
+  text-align: center;
+  margin: 10px;
+}
+    
+.year{
+  font-size: 100px;
+}
+
+.month{
+  font-size: 80px;
+}
+
+.day{
+  font-size: 60px;
+}
+
+.time{
+  font-size: 100px;
+}
+
+@keyframes blink {
+  from {color:#9c9c9c;}
+  to {color: transparent;}
+}
+@keyframes blink2 {
+  from {color:rgb(10, 234, 18);}
+  to {color: transparent;}
+}
+
+.counter{
+  cursor: text;
+  color: #9c9c9c;
+  display: flex;
+  font-family: Digital;
+  font-size: 100px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  animation-name: blink;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+.countdownstart{
+  color: rgb(10, 234, 18);
+  display: flex;
+  font-family: Digital;
+  font-size: 100px;
+  align-items: center;
+  justify-content: center;
+ 
+  margin-top: 20px;
+  animation-name: blink2;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+.save-cd, .start-css{
+  width: 17%;
+  height: 60px;
+  cursor: pointer;
+  text-align: center;
+  font-family: Digital;
+  font-size:30px;
+  padding: 5px;
+  margin-top: 10px;
+  margin-left: 33%;
+  margin-right: -33%;
+  background-color: green;
+  color: greenyellow;
+  border: 2px solid rgb(76, 201, 76);
+}
+
+.inactive-css{
+  width: 17%;
+  height: 60px;
+  cursor: crosshair; 
+  text-align: center;
+  font-family: Digital;
+  font-size:30px;
+  padding: 5px;
+  margin-top: 10px;
+  margin-left: 33%;
+  margin-right: -33%;
+  background-color: rgb(44, 39, 39);
+  color: rgb(156, 156, 156) ;
+  border: 2px solid  rgb(156, 156, 156);
+}
+
+.clear-css{
+width: 34.4%;
+height: 60px;
+cursor: pointer;
+text-align: center;
+font-family: Digital;
+font-size:30px;
+padding: 5px;
+margin-top: 10px;
+margin-left: 33%;
+margin-right: -33%;
+background-color: green;
+color: greenyellow;
+border: 2px solid rgb(76, 201, 76);
+}

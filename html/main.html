@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+   <link rel="stylesheet" href="css/timer.css">
+</head>
+<body>
+    <nav>
+        <ul>
+          <li><a href="main.html">timer</a></li>
+          <li><a href="countdown.html">countdown</a></li>
+          <li><a href="current-time.html">current time</a></li>
+        </ul>
+      </nav>
+
+    <fieldset class="timer-wrap"> 
+        <legend class="legend">Timer</legend>
+        <div class="js-timer timer">00:00:00</div>
+    </fieldset>
+   
+    <button onclick="timerStart()" class="js-button-start btn">START</button>
+    <button onclick ="splitTime()" class="btn">split</button>
+    <button onclick ="clearAll()" class="btn">CLEAR</button>
+    <div id="result"></div>
+    <script src="script/main.js">
+    </script>
+</body>
+</html>
